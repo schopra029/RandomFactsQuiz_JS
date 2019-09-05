@@ -1,0 +1,59 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color:#005580;
+}
+
+form, .startPage {
+    text-align: center;
+    background-color: #ffffff;
+    margin: 100px auto;
+    font-family: Raleway;
+    padding: 40px;
+    width: 70%;
+    min-width: 300px;
+    border-radius: 20px;
+}
+
+#readIcon {
+    display: inline-block;
+    font-size: 35px;
+}
+
+#start, #submit {
+    background-color: rgb(255,201,21);
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+#totalScore {
+    text-align: center;
+}
+
+#submit {
+    border-radius: 20px;
+}
+
+div.col {
+    height: 8em;
+}
+
+.col {
+    border: solid #ffffff;
+    background-color: #005580;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 50px;
+}
+
+.bottomElements {
+    margin: 15px;
+}
+

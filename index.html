@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Random Facts Quiz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">  
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="startPage">
+    <h1>How well do you know your random facts?</h1></br>
+    <i class="fas fa-book-reader" id="readIcon"></i></br></br>
+    <button id="start">Start Quiz</button>
+</div>    
+
+<form id="regForm">
+
+    <div class="questions">
+        <h1>Question 1</h1>
+        <p>In the popular show "Friends", which character had an on and off smoking habit?</p>
+        <div class="container">
+        <div class="row">
+            <div class="col"><input type="radio" name="Friends" value="Monica" data-questionNumber="question2"></br> Monica<br></div>
+            <div class="col"><input type="radio" name="Friends" value="Chandler" data-questionNumber="question2"></br> Chandler<br></div>
+            <div class="w-100"></div>
+            <div class="col"><input type="radio" name="Friends" value="Carol" data-questionNumber="question2"></br> Carol</div>
+            <div class="col"><input type="radio" name="Friends" value="Susan" data-questionNumber="question2"></br> Susan</div>
+        </div>
+        </div>
+    </div>
+
+    <div class="questions">
+        <h1>Question 2</h1>
+        <p>Which dog breed is originally from Germany?</p>
+        <div class="container">
+        <div class="row">
+                <div class="col"><input type="radio" name="Dogs" value="Golden Retriever" data-questionNumber="question2"></br> Golden Retriever<br></div>
+                <div class="col"><input type="radio" name="Dogs" value="Miniature Pinscher" data-questionNumber="question2"></br> Miniature Pinscher<br></div>
+                <div class="w-100"></div>
+                <div class="col"><input type="radio" name="Dogs" value="Pug" data-questionNumber="question2"></br> Pug</div>
+                <div class="col"><input type="radio" name="Dogs" value="Husky" data-questionNumber="question2"></br> Husky</div>
+        </div>
+        </div>
+    </div>
+
+    <div class="questions">
+        <h1>Question 3</h1>
+        <p>Who was the Beatle's original drummer?</p>
+        <div class="container">
+        <div class="row">
+                <div class="col"><input type="radio" name="Beatles" value="Ringo Starr" data-questionNumber="question3"></br> Ringo Starr<br></div>
+                <div class="col"><input type="radio" name="Beatles" value="John Lennon" data-questionNumber="question3"></br> John Lennon<br></div>
+                <div class="w-100"></div>
+                <div class="col"><input type="radio" name="Beatles" value="Pete Best" data-questionNumber="question3"></br> Pete Best</div>
+                <div class="col"><input type="radio" name="Beatles" value="James Hetfield" data-questionNumber="question3"></br> James Hetfield</div>
+        </div>
+        </div>
+    </div> 
+
+    <div class="questions">
+        <h1>Question 4</h1>
+        <p>Currently, what's the tallest building the world?</p>
+        <div class="container">
+        <div class="row">
+                <div class="col"><input type="radio" name="Building" value="CN Tower" data-questionNumber="question4"></br> CN Tower<br></div>
+                <div class="col"><input type="radio" name="Building" value="Burj Khalifa" data-questionNumber="question4"></br> Burj Khalifa<br></div>
+                <div class="w-100"></div>
+                <div class="col"><input type="radio" name="Building" value="Shanghai Tower" data-questionNumber="question4"></br> Shanghai Tower</div>
+                <div class="col"><input type="radio" name="Building" value="Eiffel Tower" data-questionNumber="question4"></br> Eiffel Tower</div>
+        </div>
+        </div>
+    </div> 
+    
+    <div class="questions">
+        <h1>Question 5</h1>
+        <p>At the end of the first movie "The Avengers", what type of wrap are the characters seen eating?</p>
+        <div class="container">
+        <div class="row">
+                <div class="col"><input type="radio" name="Avengers" value="Chicken Shawarma" data-questionNumber="question5"></br> Chicken Shawarma<br></div>
+                <div class="col"><input type="radio" name="Avengers" value="Kati Roll" data-questionNumber="question5"></br> Kati Roll<br></div>
+                <div class="w-100"></div>
+                <div class="col"><input type="radio" name="Avengers" value="Shanghai Tower" data-questionNumber="question5"></br> California Turkey</div>
+                <div class="col"><input type="radio" name="Avengers" value="Eiffel Tower" data-questionNumber="question5"></br> Tuna Salad</div>
+        </div>
+        </div>
+    </div>     
+
+<div class="bottomElements">
+    <input type="submit" value="Submit" id="submit">
+
+<div id="totalScore">
+    <h1>Your Total Score: <span id="score">0</span></h1>
+</div>
+</div>
+
+</form>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="scripts.js"></script>
+    
+</body>
+</html>
